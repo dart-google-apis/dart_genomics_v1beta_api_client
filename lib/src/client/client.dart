@@ -16,6 +16,7 @@ abstract class Client extends ClientBase {
   ReadsResource_ get reads => new ReadsResource_(this);
   ReadsetsResource_ get readsets => new ReadsetsResource_(this);
   VariantsResource_ get variants => new VariantsResource_(this);
+  VariantsetsResource_ get variantsets => new VariantsetsResource_(this);
 
   //
   // Parameters
